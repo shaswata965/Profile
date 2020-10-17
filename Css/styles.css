@@ -1,0 +1,170 @@
+body {
+  font-family: 'Mulish', sans-serif;
+}
+hr{
+  border-style: dotted none none;
+  border-width: 1rem;
+  height: 1rem;
+  width: 5%;
+  border-color: #838383;
+  color: #fff8cd;
+}
+
+/* Navbar Section */
+
+.nav-item {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0 0.5rem 0 0.5rem;
+
+}
+
+/* Landing Page Section */
+.top-text {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.Landing-Info {
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: 600;
+  font-size: 5rem;
+  border-radius: 1.5625rem;
+}
+
+.landing-h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  padding: 2rem 0 10rem 0;
+}
+
+.main-container {
+  background-color: #fff8cd;
+  text-align: center;
+
+}
+
+.Top-content {
+  background-color: #f08a5d;
+  border-radius: 1.5625rem;
+}
+
+.details {
+  background-color: #01c5c4;
+  width: 80%;
+  border-radius: 1.5625rem;
+}
+
+.giphy-image {
+  margin: 2rem 0 0 0;
+  height: 20rem;
+  width: 20rem;
+}
+
+.pro-pic {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+
+}
+/* Profile Section */
+.profile-section{
+  text-align: center;
+}
+.Main-Image{
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+}
+.Profile-h2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* */
+
+/* Skills Section */
+.Skill-Section{
+  background-color: #01c5c4;
+  width:80%;
+  border-radius: 1.5625rem;
+}
+.skill-h2{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top: 2rem;
+  margin:2rem 0 2rem 0;
+}
+.skill-bar{
+  padding: 1rem 2rem 1rem 2rem;
+}
+.progress{
+  background-color: #000000;
+  height: .25rem;
+}
+.progress-bar{
+background-color: #821752;
+}
+.fas{
+  color: #ff5722;
+}
+.fab{
+    color: #ff5722;
+}
+.quality-h2{
+  text-align: center;
+  background-color: #1a1a2e;
+  border-radius: 1.5625rem;
+  margin-top: 1rem;
+  color: #e94560;
+  width: 90%;
+}
+.quality-h3{
+  font-size: 1.5rem;
+  padding:1rem 1rem 1rem 1rem;
+  background-color: #1a1a2e;
+  color: #e94560;
+  width: 90%;
+    border-radius: 1.5625rem;
+}
+/* Call To Action */
+.cta-section{
+  padding: 3rem;
+  text-align: center;
+}
+.cta-h2{
+  margin-bottom: 2rem;
+}
+/* footer section */
+#footer{
+  background-color: #16213e;
+  text-align: center;
+  overflow: hidden;
+}
+.footer-icon{
+  padding: 1rem 1rem;
+}
+.footer-p{
+  color: #ea5455;
+  font-size: 1rem;
+}
+
+/* Media Query */
+
+@media (min-width:1000px) {
+  .Profile-h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding:0 25rem 0 25rem;
+  }
+
+}
+
+@media (min-width:1080px) {
+  .cta-section{
+    padding: 3rem 20rem;
+    text-align: center;
+  }
+
+}
