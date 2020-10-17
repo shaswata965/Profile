@@ -42,6 +42,7 @@ hr{
 .main-container {
   background-color: #fff8cd;
   text-align: center;
+  overflow: hidden;
 
 }
 
