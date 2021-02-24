@@ -24,6 +24,7 @@ hr{
 .top-text {
   font-weight: 700;
   font-size: 4rem;
+  color: white;
 }
 
 .Landing-Info {
@@ -40,7 +41,7 @@ hr{
 }
 
 .main-container {
-  background-color: #a6e3e9;
+  background-color: #383e56;
   text-align: center;
   overflow: hidden;
 
@@ -52,7 +53,7 @@ hr{
 }
 
 .details {
-  background-color: #01c5c4;
+  background-color: #fcd1d1;
   width: 80%;
   border-radius: 1.5625rem;
 }
@@ -72,6 +73,7 @@ hr{
 /* Profile Section */
 .profile-section{
   text-align: center;
+  color: white;
 }
 .Main-Image{
   height: 15rem;
@@ -86,7 +88,7 @@ hr{
 
 /* Skills Section */
 .Skill-Section{
-  background-color: #01c5c4;
+  background-color: #fcd1d1;
   width:80%;
   border-radius: 1.5625rem;
 }
@@ -135,6 +137,7 @@ background-color: #821752;
 }
 .cta-h2{
   padding-bottom: 2rem;
+  color: white;
 }
 /* footer section */
 #footer{
@@ -167,7 +170,7 @@ background-color: #821752;
     border-radius: 1.5625rem;
   }
 .cta-section{
-    padding: 0;
+    padding: 3rem;
   text-align: center;
 
 }
