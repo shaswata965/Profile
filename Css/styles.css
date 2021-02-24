@@ -152,19 +152,23 @@ background-color: #821752;
 
 /* Media Query */
 
-@media (min-width:1000px) {
-  .Profile-h3{
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding:0 25rem 0 25rem;
-  }
 
-}
-
-@media (min-width:1080px) {
+@media (max-width:1080px) {
   .cta-section{
     padding: 3rem 20rem;
     text-align: center;
   }
+  .skill-h2{
+    font-size: 2.5rem;
+  }
+  .Landing-Info {
+    font-weight: 600;
+    font-size: 4rem;
+    border-radius: 1.5625rem;
+  }
+.cta-section{
+    padding: 0;
+  text-align: center;
 
+}
 }
