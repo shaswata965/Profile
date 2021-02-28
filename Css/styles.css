@@ -60,8 +60,8 @@ hr{
 
 .giphy-image {
   margin: 2rem 0 0 0;
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 .pro-pic {
@@ -139,6 +139,20 @@ background-color: #821752;
   padding-bottom: 2rem;
   color: white;
 }
+/* Past Works Section */
+.Past-Section{
+    margin: auto;
+  background-color: #fcd1d1;
+  width:80%;
+  border-radius: 1.5625rem;
+
+
+}
+.past-h2{
+  padding:1rem 0 1rem 0;
+  font-weight: 700;
+  font-size: 3rem;
+}
 /* footer section */
 #footer{
   background-color: #16213e;
@@ -151,6 +165,39 @@ background-color: #821752;
 .footer-p{
   color: #ea5455;
   font-size: 1rem;
+}
+.box{
+  background-color: #c19277;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: #fcd1d1;
+}
+/* Button Decoration */
+.butn {
+  margin-bottom:  1rem;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #383e56;
+  font-size: 20px;
+  background: #fcd1d1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: none;
+}
+
+.butn:hover {
+  background: #c19277;
+  text-decoration: none;
+}
+a{
+  color: #383e56;
+  text-decoration: none;
+}
+a:hover{
+    color: #383e56;
+    text-decoration: none;
 }
 
 /* Media Query */
