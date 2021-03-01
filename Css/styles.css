@@ -153,6 +153,11 @@ background-color: #821752;
   font-weight: 700;
   font-size: 3rem;
 }
+.past-h3{
+  padding:1rem 0 1rem 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 /* footer section */
 #footer{
   background-color: #16213e;
