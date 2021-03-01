@@ -213,8 +213,13 @@ a:hover{
   }
   .Landing-Info {
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 2rem;
     border-radius: 1.5625rem;
+  }
+  .landing-h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 2rem 0 10rem 0;
   }
 .cta-section{
     padding: 3rem;
