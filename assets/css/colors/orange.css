@@ -1,0 +1,65 @@
+header .logo svg {
+    fill: #ff651c;
+}
+.clickbtn,
+.cursor-inner,
+.cursor-inner.cursor-hover,
+.navbar a:before,
+.portfolio-details .swiper-pagination .swiper-pagination-bullet-active,
+.skills .progress-bar,
+.style-switch-wrapper .purchse-btn,
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #f70b2b;
+}
+.about-me .content h3,
+.about-me .content ul i,
+.blog-content .blog-body .title,
+.blog-content .blog-body h4,
+.blog-content .blog-header span i,
+.contact .info-box .social-links a:hover,
+.contact .info-box i.fas,
+.contact-section .content-title,
+.counts .count-box i,
+.fixed-block .social-icons a:hover,
+.home-details h1 span,
+.navbar .active,
+.navbar .active:focus,
+.navbar a:hover,
+.navbar li:hover > a,
+.portfolio .portfolio-wrap .portfolio-links a:hover,
+.portfolio-info h3,
+.portfolio-title,
+.resume .resume-item h4,
+.services .icon-box:hover .icon i,
+.single-post .post-content .content-date,
+.single-post:hover .post-content .content-title h5 > a,
+a {
+    color: #f70b2b;
+}
+.clickbtn,
+.cursor-outer,
+.navbar-mobile ul,
+.portfolio .portfolio-flters li,
+.resume .resume-item::before,
+.style-switch-wrapper .purchse-btn {
+    border: 2px solid #f70b2b;
+}
+.contact .email-form .sent-message,
+.contact .email-form button[type="submit"],
+.portfolio .portfolio-flters li,
+.resume .resume-item::before,
+.section-title h2::after,
+.services .icon-box .icon,
+.services .icon-box:hover,
+.switch {
+    background: #f70b2b;
+}
+
+.main-img-mobile{
+    border: 4px solid #f70b2b;
+}
+
+.main-img-mobile:hover {
+    box-shadow: 0 0 35px 0 #f70b2b;
+    transition: all 0.5s ease-in-out;
+}
