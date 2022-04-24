@@ -1,5 +1,13 @@
 !(function () {
+
+    $('.clickbtn').on('click',function (){
+        setTimeout(function (){
+            location.reload();
+        }, 10);
+    });
+
     "use strict";
+
     var e = !!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent),
         t = $("#preloader");
     e
@@ -102,6 +110,8 @@
                 );
             }
         });
+
+
     GLightbox({ selector: ".portfolio-lightbox" }), GLightbox({ selector: ".portfolio-details-lightbox", width: "90%", height: "90vh" });
     new Swiper(".portfolio-details-slider", { speed: 400, loop: !0, autoplay: { delay: 5e3, disableOnInteraction: !1 }, pagination: { el: ".swiper-pagination", type: "bullets", clickable: !0 } });
     GLightbox({ selector: ".blog-page-lightbox", width: "90%", height: "90vh" });
